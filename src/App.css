@@ -2,7 +2,8 @@
   text-align: center;
 }
 
-.App-header {
+.App-header,
+.App-footer {
   background-color: #282c34;
   height: 70px;
   display: flex;
@@ -12,7 +13,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 20px;
-  cursor: pointer;
+}
+
+a {
+  color: white;
 }
 
 .spinner {
