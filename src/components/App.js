@@ -5,7 +5,7 @@ import Movie from './Movie';
 import Search from './Search';
 import Footer from './Footer';
 
-const MOVIE_API_URL = "https://www.omdbapi.com/?s=will+ferrell&apikey=4a3b711b";
+const MOVIE_API_URL = "https://www.omdbapi.com/?s=star&apikey=4a3b711b";
 
 const initialState = {
   loading: true,
@@ -83,7 +83,7 @@ const App = () => {
     <div className="App">
       <Header text="Hooked"/>
       <Search search={search}/>
-      <p className="App-intro">Sharing a few of our favourite movies</p>
+      <p className="App-intro">Sharing a few of our favourite movies using React hooks!</p>
       <div className="movies">
         {loading && !errorMessage ? (
           <span>Loading...</span>

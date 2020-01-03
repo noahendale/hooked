@@ -10,7 +10,7 @@ const Movie = ({ movie }) => {
   return (
     <div className="movie">
       <h2>{ movie.Title }</h2>
-      <div>
+      <div class="image-container">
         <img
           width="200"
           src={ poster }
